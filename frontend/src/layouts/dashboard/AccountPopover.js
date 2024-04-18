@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import homeFill from "@iconify/icons-eva/home-fill";
 import personFill from "@iconify/icons-eva/person-fill";
 import settings2Fill from "@iconify/icons-eva/settings-2-fill";
@@ -21,7 +21,7 @@ import {
 import MenuPopover from "../../components/MenuPopover";
 //
 
-// import { useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { logout } from "../../actions/userAction";
 import { useDispatch } from "react-redux";
 
@@ -51,9 +51,9 @@ const MENU_OPTIONS = [
 // ----------------------------------------------------------------------
 
 export default function AccountPopover() {
-  // const { loading, error, isAuthenticated } = useSelector(
-  //   (state) => state.user
-  // );
+  const {isAuthenticated } = useSelector(
+    (state) => state.user
+  );
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -72,13 +72,18 @@ export default function AccountPopover() {
   /////////////////user info stored in local host ///////
   var userInfo = JSON.parse(localStorage.getItem("userInfo"));
   var load = localStorage.getItem("isAuthenticated");
-
+  
   ////////// //logout user////////////////
   function logoutUser() {
     dispatch(logout());
     localStorage.clear();
-    navigate("/login");
+    setTimeout(() => {
+      console.log("inside setTimeout")
+      navigate("/login")
+    }, 500);
+  
   }
+
 
   return (
     <>

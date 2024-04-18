@@ -46,7 +46,7 @@ export default function DashboardAdmin() {
     setOpen(false);
   };
   return (
-    <Page title="Dashboard | Stokify">
+    <Page title="Dashboard | SMS">
       <div
         style={{
           display: outOfStock > 0 ? "block" : "none",
@@ -84,15 +84,15 @@ export default function DashboardAdmin() {
           <Grid item xs={12} sm={6} md={2.2}>
             <TotalRequest />
           </Grid>
-          <Grid item xs={12} sm={6} md={2.2}>
+          {/* <Grid item xs={12} sm={6} md={2.2}>
             <SMTotalReturnInventory />
-          </Grid>
+          </Grid> */}
           <Grid item xs={12} sm={6} md={2.2}>
             <TotalOrder />
           </Grid>
-          <Grid item xs={12} md={6} lg={4.5}>
-            <DoughnutStockChart />
-          </Grid>
+          {/* <Grid item xs={12} md={6} lg={4.5}> */}
+            {/* <DoughnutStockChart /> */}
+          {/* </Grid> */}
           <Grid item xs={12} md={6} lg={6}>
             <TotalProductsByCategory />
           </Grid>

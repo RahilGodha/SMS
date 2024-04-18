@@ -58,7 +58,7 @@ export default function Login() {
   }, [dispatch, isAuthenticated, navigate]);
 
   return (
-    <RootStyle title="Login | Stokify">
+    <RootStyle title="Login | SMS">
       <AuthLayout>
         Don’t have an account? &nbsp;
         <Link
@@ -76,7 +76,7 @@ export default function Login() {
           <Typography variant="h5" sx={{ px: 5, mt: 10, mb: 5 }}>
             Hi! Welcome Back
           </Typography>
-          <img src="/static/illustrations/illustration_login.png" alt="login" />
+          <img src="/static/icons/LOGO_in.jpeg" alt="login" />
         </SectionStyle>
       </MHidden>
 

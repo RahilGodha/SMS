@@ -64,7 +64,7 @@ const ConfirmRequest = ({ history }) => {
         <Loader />
       ) : (
         <Fragment>
-          <Page title="Confirm Request| Stokify" />
+          <Page title="Confirm Request| SMS" />
           <div className="confirmOrderPage">
             <div>
               <div className="confirmshippingArea">

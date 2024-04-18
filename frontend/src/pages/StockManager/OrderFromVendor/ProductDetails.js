@@ -109,7 +109,7 @@ const ProductDetails = () => {
         <Loader />
       ) : (
         <Fragment>
-          <Page title="Order: Product Detail | Stokify">
+          <Page title="Order: Product Detail | SMS">
             <Container>
               <Stack
                 direction="row"

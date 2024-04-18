@@ -91,7 +91,7 @@ export default function ForgotPassword() {
   const { errors, touched, handleSubmit, getFieldProps } = formik;
 
   return (
-    <RootStyle title="Forgot Password | Stokify">
+    <RootStyle title="Forgot Password | SMS">
       <AuthLayout></AuthLayout>
 
       <MHidden width="mdDown">

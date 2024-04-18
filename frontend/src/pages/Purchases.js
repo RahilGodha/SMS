@@ -12,7 +12,7 @@ import Page from "../components/Page";
 
 export default function Purchases() {
   return (
-    <Page title="Dashboard: Purchases | Stokify">
+    <Page title="Dashboard: Purchases | SMS">
       <Container>
         <Stack
           direction="row"

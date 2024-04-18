@@ -41,7 +41,7 @@ const ContentStyle = styled("div")(({ theme }) => ({
 
 export default function Register() {
   return (
-    <RootStyle title="Register | Stokify">
+    <RootStyle title="Register | SMS">
       <AuthLayout>
         Already have an account? &nbsp;
         <Link

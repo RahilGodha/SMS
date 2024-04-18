@@ -25,8 +25,6 @@ import { clearErrors, register } from "src/actions/userAction";
 // ----------------------------------------------------------------------
 const optionsRole = [
   { value: "Staff", label: "Staff" },
-  // { value: "Faculty", label: "Faculty" },
-  // { value: "Student", label: "Student" },
   { value: "Stock Manager", label: "Stock Manager" },
   { value: "Vendor", label: "Vendor" },
   { value: "Coordinator", label: "Coordinator" },

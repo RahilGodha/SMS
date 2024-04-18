@@ -14,7 +14,7 @@ const Profile = ({ history }) => {
     }
   }, [history, isAuthenticated]);
   return (
-    <Page title="Dashboard: Profile | Stokify">
+    <Page title="Dashboard: Profile | SMS">
       <Container>
         <Card>
           <Typography variant="h4" gutterBottom textAlign={"center"}>

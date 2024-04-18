@@ -106,7 +106,7 @@ const ProductDetails = () => {
         <Loader />
       ) : (
         <Fragment>
-          <Page title="Products: Product Detail | Stokify">
+          <Page title="Products: Product Detail | SMS">
             <Container>
               <Stack
                 direction="row"

@@ -116,7 +116,7 @@ const ReqInventoryDetail = () => {
                   </p>
                 </div>
               </div>
-              <Typography>Inventory Return Date</Typography>
+              {/* <Typography>Inventory Return Date</Typography>
               <div className="orderDetailsContainerBox">
                 <div>
                   <p style={{ color: "blue" }}>
@@ -125,7 +125,7 @@ const ReqInventoryDetail = () => {
                       : returnDate.substring(0, 16)}
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="orderDetailsCartItems">

@@ -32,7 +32,7 @@ export default function RequestInventory() {
   };
 
   return (
-    <Page title="Dashboard: Place Order | Stokify">
+    <Page title="Dashboard: Place Order | SMS">
       <Container>
         <Stack
           direction="row"

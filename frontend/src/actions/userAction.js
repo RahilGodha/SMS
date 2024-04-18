@@ -104,17 +104,18 @@ export const loadUser = () => async (dispatch) => {
 
 // Logout User
 export const logout = () => async (dispatch, getState) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   try {
     await axios.get(`/api/v1/logout`);
-
     dispatch({ type: LOGOUT_SUCCESS });
     localStorage.setItem(
       "cartItems",
       JSON.stringify((getState().cart.cartItems = []))
     );
-    navigate("/login");
+    // navigate("/login");
+    
   } catch (error) {
+    console.log("dispatch_catch")
     dispatch({ type: LOGOUT_FAIL, payload: error.response.data.message });
   }
 };

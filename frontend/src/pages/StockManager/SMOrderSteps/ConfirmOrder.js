@@ -42,7 +42,7 @@ const ConfirmOrder = ({ history }) => {
         <Loader />
       ) : (
         <Fragment>
-          <Page title="Confirm Order| Stokify" />
+          <Page title="Confirm Order| SMS" />
           <CheckoutSteps activeStep={1} />
           <div className="confirmOrderPage">
             <div>

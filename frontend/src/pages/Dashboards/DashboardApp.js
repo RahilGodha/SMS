@@ -14,7 +14,7 @@ import {
 
 export default function DashboardApp() {
   return (
-    <Page title="Dashboard | Stokify">
+    <Page title="Dashboard | SMS">
       <Container maxWidth="xl">
         <Box sx={{ pb: 5 }}>
           <Typography variant="h4">Hi, Welcome back</Typography>

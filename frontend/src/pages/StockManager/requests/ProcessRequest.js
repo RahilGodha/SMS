@@ -110,9 +110,9 @@ const ProcessRequest = () => {
 
   //////////////////
   useEffect(() => {
-    setText(
-      `${orderItems}\n[Inventory Return Date: ${returnDate.substring(0, 16)}]`
-    );
+    // setText(
+    //   `${orderItems}\n[Inventory Return Date: ${returnDate.substring(0, 16)}]`
+    // );
 
     QRCode.toDataURL(text).then(setSrc);
     console.log(text);
@@ -207,12 +207,12 @@ const ProcessRequest = () => {
                     </p>
                   </div>
                 </div>
-                <Typography>Return Date</Typography>
+                {/* <Typography>Return Date</Typography>
                 <br />
                 <DatePicker
                   minDate={new Date()}
                   onChange={(date) => setReturnDate(date.toString())}
-                />
+                /> */}
               </div>
 
               <div className="orderDetailsCartItems">

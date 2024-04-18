@@ -88,7 +88,7 @@ export default function Invoices() {
     </Grid>
   );
   return (
-    <Page title="Dashboard: Purchases | Stokify">
+    <Page title="Dashboard: Purchases | SMS">
       <div>
         <GridPDFExport ref={(pdfExport) => (gridPDFExport = pdfExport)}>
           {grid}

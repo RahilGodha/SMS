@@ -117,7 +117,7 @@ const Payment = ({ history }) => {
 
   return (
     <Fragment>
-      <Page title="Payment| Stokify" />
+      <Page title="Payment| SMS" />
       <CheckoutSteps activeStep={2} />
       <div className="paymentContainer">
         <form className="paymentForm" onSubmit={(e) => submitHandler(e)}>
@@ -143,7 +143,7 @@ const Payment = ({ history }) => {
             ref={payBtn}
             className="paymentFormBtn"
           >
-            Pay - PKR: {orderInfo && orderInfo.totalPrice}
+            Pay - RS: {orderInfo && orderInfo.totalPrice}
           </LoadingButton>
         </form>
       </div>

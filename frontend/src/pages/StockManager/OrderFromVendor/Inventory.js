@@ -65,7 +65,7 @@ const Inventory = ({ search }) => {
       {loading ? (
         <Loader />
       ) : (
-        <Page title="Dashboard: Order | Stokify">
+        <Page title="Dashboard: Order | SMS">
           {/* <ProductCartWidget /> */}
           <Container>
             <Stack

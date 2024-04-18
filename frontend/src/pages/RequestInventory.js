@@ -33,7 +33,7 @@ export default function RequestInventory() {
   };
 
   return (
-    <Page title="Dashboard: Request Inventory | Stokify">
+    <Page title="Dashboard: Request Inventory | SMS">
       <Container>
         <Stack
           direction="row"

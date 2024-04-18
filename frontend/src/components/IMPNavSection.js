@@ -202,16 +202,6 @@ const sidebarAdmin = [
     path: "/dashboard/invoices",
     icon: getIcon("material-symbols:payments-outline-sharp"),
   },
-  {
-    title: "About Us",
-    path: "/dashboard/about",
-    icon: getIcon("bi:info-circle"),
-  },
-  {
-    title: "Not found",
-    path: "/404",
-    icon: getIcon(alertTriangleFill),
-  },
 ];
 /////////////////////// by default ////////////////////////////////////////
 
@@ -241,16 +231,6 @@ const sidebarConigUser = [
     icon: getIcon("carbon:order-details"),
   },
 
-  {
-    title: "About Us",
-    path: "/dashboard/about",
-    icon: getIcon("bi:info-circle"),
-  },
-  {
-    title: "Not found",
-    path: "/404",
-    icon: getIcon(alertTriangleFill),
-  },
 ];
 /////////////////////// Coordinator ////////////////////////////////////////
 const sidebarCod = [
@@ -263,17 +243,6 @@ const sidebarCod = [
     title: "inventory requests",
     path: "/dashboard/requestlist",
     icon: getIcon("carbon:order-details"),
-  },
-
-  {
-    title: "About Us",
-    path: "/dashboard/about",
-    icon: getIcon("bi:info-circle"),
-  },
-  {
-    title: "Not found",
-    path: "/404",
-    icon: getIcon(alertTriangleFill),
   },
 ];
 /////////////////////// Account officer ////////////////////////////////////////
@@ -290,16 +259,6 @@ const sidebarAO = [
     icon: getIcon("material-symbols:payments-outline-sharp"),
   },
 
-  {
-    title: "About Us",
-    path: "/dashboard/about",
-    icon: getIcon("bi:info-circle"),
-  },
-  {
-    title: "Not found",
-    path: "/404",
-    icon: getIcon(alertTriangleFill),
-  },
 ];
 ////////////////////sidebarStockManager//////////////////////////////////////////
 const sidebarStockManager = [
@@ -339,16 +298,7 @@ const sidebarStockManager = [
     path: "/dashboard/shipping",
     icon: getIcon("fa-solid:shipping-fast"),
   },
-  {
-    title: "About Us",
-    path: "/dashboard/about",
-    icon: getIcon("bi:info-circle"),
-  },
-  {
-    title: "Not found",
-    path: "/404",
-    icon: getIcon(alertTriangleFill),
-  },
+  
 ];
 
 ////////////////////Vendor//////////////////////////////////////////
@@ -374,16 +324,7 @@ const sidebarVendor = [
     path: "/dashboard/invoices",
     icon: getIcon("material-symbols:payments-outline-sharp"),
   },
-  {
-    title: "About Us",
-    path: "/dashboard/about",
-    icon: getIcon("bi:info-circle"),
-  },
-  {
-    title: "Not found",
-    path: "/404",
-    icon: getIcon(alertTriangleFill),
-  },
+  
 ];
 //////////////////////////////////////////////////////////////
 export default function NavSection({ navConfig, ...other }) {

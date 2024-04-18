@@ -21,7 +21,7 @@ const RootStyle = styled(Page)(({ theme }) => ({
 
 export default function Page404() {
   return (
-    <RootStyle title="About Us | Stokify">
+    <RootStyle title="About Us | SMS">
       <Container>
           <Card style={{margin: "auto"}}>
              

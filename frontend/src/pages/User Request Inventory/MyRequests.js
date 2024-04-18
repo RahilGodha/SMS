@@ -53,12 +53,12 @@ const MyRequests = () => {
       minWidth: 270,
       flex: 0.5,
     },
-    {
-      field: "return_date",
-      headerName: "Return Date",
-      minWidth: 270,
-      flex: 0.5,
-    },
+    // {
+    //   field: "return_date",
+    //   headerName: "Return Date",
+    //   minWidth: 270,
+    //   flex: 0.5,
+    // },
     {
       field: "actions",
       flex: 0.3,
@@ -102,7 +102,7 @@ const MyRequests = () => {
   }, [dispatch, alert, error]);
 
   return (
-    <Page title="Dashboard: My Requests | Stokify">
+    <Page title="Dashboard: My Requests | SMS">
       <Stack
         direction="row"
         alignItems="center"

@@ -43,7 +43,7 @@ const Shipping = ({ history }) => {
 
   return (
     <Fragment>
-      <Page title="Dashboard: Shipping | Stokify" />
+      <Page title="Dashboard: Shipping | SMS" />
       <CheckoutSteps activeStep={0} />
       <div className="shippingContainer">
         <div className="shippingBox">

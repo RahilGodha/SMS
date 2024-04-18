@@ -124,7 +124,7 @@ const OrderDetails = ({ match }) => {
                       </Link>
                       <span>
                         {item.quantity} X {item.price} ={" "}
-                        <b>PKR : {item.price * item.quantity}</b>
+                        <b>Rs : {item.price * item.quantity}</b>
                       </span>
                     </div>
                   ))}

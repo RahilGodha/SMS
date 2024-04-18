@@ -43,7 +43,7 @@ export default function DashboardAdmin() {
     setOpen(false);
   };
   return (
-    <Page title="Dashboard | Stokify">
+    <Page title="Dashboard | SMS">
       <div
         style={{
           display: outOfStock > 0 ? "block" : "none",
