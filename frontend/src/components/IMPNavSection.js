@@ -230,7 +230,11 @@ const sidebarConigUser = [
     path: "/dashboard/myrequests",
     icon: getIcon("carbon:order-details"),
   },
-
+  {
+    title: "bar code scanner",
+    path: "/dashboard/barcode",
+    icon: getIcon("carbon:order-details"),
+  },
 ];
 /////////////////////// Coordinator ////////////////////////////////////////
 const sidebarCod = [

@@ -32,9 +32,9 @@ export default function DashboardApp() {
           <Grid item xs={12} md={8} lg={6}>
             <UserRequestOrderTimeline />
           </Grid>
-          <Grid item xs={12} md={8} lg={6}>
+          {/* <Grid item xs={12} md={8} lg={6}>
             <InventoryReturnTimeline />
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </Page>

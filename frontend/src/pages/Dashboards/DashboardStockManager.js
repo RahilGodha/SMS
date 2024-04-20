@@ -96,9 +96,9 @@ export default function DashboardAdmin() {
           <Grid item xs={12} md={6} lg={6}>
             <TotalProductsByCategory />
           </Grid>
-          <Grid item xs={12} md={8} lg={6}>
+          {/* <Grid item xs={12} md={8} lg={6}>
             <SMInventoryReturnTimeline />
-          </Grid>
+          </Grid> */}
         </Grid>
       </Container>
     </Page>

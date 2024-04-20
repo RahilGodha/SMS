@@ -41,6 +41,7 @@ import ConfirmOrder from "./pages/StockManager/SMOrderSteps/ConfirmOrder";
 import Payment from "./pages/StockManager/SMOrderSteps/Payment";
 import OrderSuccess from "./pages/StockManager/SMOrderSteps/OrderSuccess";
 import MyRequests from "./pages/User Request Inventory/MyRequests";
+import Barcode from "./pages/barcode";
 
 import ProductDetails from "./pages/User Inventory/ProductDetails";
 import ReqInventoryDetail from "./pages/User Request Inventory/ReqInventoryDetail";
@@ -159,7 +160,10 @@ export default function Router() {
           path: "myrequests",
           element: <MyRequests />,
         },
-
+        {
+          path: "barcode",
+          element: <Barcode />,
+        },
         {
           path: "myrequests/:id",
           element: <ReqInventoryDetail />,
