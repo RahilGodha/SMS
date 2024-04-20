@@ -41,7 +41,7 @@ function App() {
         />
       </div>
 
-      <div style={{ display: "flex", justifyContent: "center", marginTop: "40px" }}> QR code scanned : {data}</div>
+      <div style={{ display: "flex", justifyContent: "center", marginTop: "40px" }}> QR code scanned : {(data === "Not Found") ? "Not Found" : "Data Fetched"  }</div>
       <div style={{display: "flex", justifyContent:"center"}}>
         <Button variant="contained" style={{ backgroundColor: "#ff7600", flex:'1', margin:"5px" }} onClick={getDetails} sx={{ mt: 2 }}>
           Get Product Details
